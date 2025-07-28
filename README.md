@@ -2,6 +2,35 @@
 
 School project to learn how to use APIs and create a website with a search engine.
 
+# Giphy Explorer
+
+### Created by: Jorge Reyes
+
+## 📖 Overview
+
+Giphy Explorer is a playful and functional web app that lets users browse trending GIFs or search for custom ones using the GIPHY API. It includes a responsive layout, theme toggle for dark mode, and a personal About page.
+
+## 🚀 Functionality
+
+- View trending GIFs on page load
+- Search for custom GIFs by keyword
+- Load more results dynamically
+- Toggle dark/light theme
+- Navigate between Home and About views
+
+## 🛠 Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## 💡 Future Improvements
+
+1. Add search suggestions or autocomplete
+2. Include GIF filters (e.g., rating, content type)
+3. Allow users to favorite and save GIFs to local storage
+4. Implement a collapsible mobile nav bar
+
 Giphy Key: dSmFYQr7C2aHEpofDQQH7549iX1zzKSi
 
 Workflow Requirements

@@ -1,0 +1,140 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#homeBtn,
+#aboutBtn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.nav-links button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #eee;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+input,
+button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e73370;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.gif-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gif-card img {
+  width: 100%;
+  display: block;
+}
+
+.dark-mode .gif-card {
+  background-color: #1f1f1f;
+}
+
+#loadMoreBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#loadMoreBtn:hover {
+  background-color: #e73370;
+}
+
+/* About Page Styles */
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.dark-mode .container {
+  background-color: #222;
+  color: #fff;
+}

@@ -2,7 +2,7 @@
 
 School project to learn how to use APIs and create a website with a search engine.
 
-Giphy Key: dSmFYQr7C2aHEpofDQQH7549iX1zzKSi
+
 
 Workflow Requirements
 This project requires a bit more work with APIs than was directly covered in the material. You are encouraged to watch the following video that walks through the process of using jQuery/Ajax to request data from and API, and display images on screen.
@@ -105,3 +105,4 @@ Creativity, styling, user experience
 Code quality.
 GitHub structure
 Documentation, Installation instructions, Comments
+

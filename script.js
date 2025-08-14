@@ -1,4 +1,4 @@
-const API_KEY = "dSmFYQr7C2aHEpofDQQH7549iX1zzKSi";
+const API_KEY = "Will update the Key to secret";
 
 let currentKeyword = "";
 let currentOffset = 0;
@@ -116,3 +116,4 @@ async function fetchTrendingGIFs(offset = 0) {
     console.error("Trending fetch error:", error);
   }
 }
+
